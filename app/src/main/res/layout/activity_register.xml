@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/auth_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_bold"
+        android:text="@string/signup_heading"
+        android:textColor="@color/colorBlack"
+        android:textSize="80sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/auth_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_auth_header" />
+
+    <ImageView
+        android:id="@+id/auth_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_logo"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:background="@drawable/roundedtextbox"
+        android:ems="10"
+        android:fontFamily="@font/product_sans_regular"
+        android:hint="@string/input_username"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
+        android:background="@drawable/roundedtextbox"
+        android:ems="10"
+        android:fontFamily="@font/product_sans_regular"
+        android:hint="@string/input_email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
+        android:background="@drawable/roundedtextbox"
+        android:ems="10"
+        android:fontFamily="@font/product_sans_regular"
+        android:hint="@string/input_password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
+        android:background="@drawable/roundedtextbox"
+        android:ems="10"
+        android:fontFamily="@font/product_sans_regular"
+        android:hint="@string/input_confirm_password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/product_sans_regular"
+        android:onClick="onClick"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:text="@string/register_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <ImageView
+        android:id="@+id/auth_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_auth_footer"
+        tools:layout_editor_absoluteY="775dp" />
+
+    <TextView
+        android:id="@+id/switch_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_regular"
+        android:text="@string/switch_to_login"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="802dp" />
+
+    <TextView
+        android:id="@+id/login_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:fontFamily="@font/product_sans_regular"
+        android:onClick="onPress"
+        android:text="@string/login_switch"
+        android:textColor="@color/colorAlternateDark2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="802dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="631dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257801035971",
+    "firebase_url": "https://com-example-remotelab.firebaseio.com",
+    "project_id": "com-example-remotelab",
+    "storage_bucket": "com-example-remotelab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257801035971:android:cc94f997832223b5",
+        "android_client_info": {
+          "package_name": "com.example.remotelab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257801035971-8p7m9sambgbl222cjl8ujvka2m81jrb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.remotelab",
+            "certificate_hash": "9e381d12aace98305f619fde9470e1071be73c05"
+          }
+        },
+        {
+          "client_id": "257801035971-dinmmr9dn8t6092jim7h5l9hgu2fo9vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMaq2rXh_DK6VVP1D3DnzcS_bdTuVs2cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257801035971-dinmmr9dn8t6092jim7h5l9hgu2fo9vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

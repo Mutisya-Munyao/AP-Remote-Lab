@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Remote Lab</string>
+    <string name="register_btn">Signup</string>
+    <string name="login_btn">Login</string>
+    <string name="input_username">Username</string>
+    <string name="input_email">Email</string>
+    <string name="input_password">Password</string>
+    <string name="input_confirm_password">Confirm Password</string>
+    <string name="switch_to_login">Already have an account?</string>
+    <string name="switch_to_register">Don\'t have an account?</string>
+    <string name="login_heading">Login</string>
+    <string name="signup_heading">Sign Up</string>
+    <string name="login_switch">Login.</string>
+    <string name="register_switch">Register here.</string>
+    <string name="minimum_password">The password is too short</string>
+    <string name="auth_failed">Login Error</string>
+    <string name="add_test">+ Request a test</string>
+    <string name="plus_sign">+</string>
+    <string name="title_bar_homepage">Tests</string>
+    <string name="vector_auth_logo">Main auth page logo</string>
+    <string name="vector_auth_header">Header for auth page</string>
+    <string name="login_text_autofill_email">Type in your email here</string>
+    <string name="login_text_autofill_password">Type in your password here</string>
+    <string name="signup_text_autofill_email">Type in an email here</string>
+    <string name="signup_text_autofill_password">Type in your desired password here</string>
+    <string name="signin_options">Or sign in with:</string>
+</resources>
